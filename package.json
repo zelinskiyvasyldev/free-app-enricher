@@ -1,0 +1,28 @@
+{
+  "name": "free-app-enricher",
+  "version": "1.0.0",
+  "description": "Free self-hosted app enrichment service for Google Play and Apple App Store. No paid APIs.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "google-play",
+    "app-store",
+    "scraper",
+    "enrichment",
+    "free"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "google-play-scraper": "^10.0.0",
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
